@@ -1,0 +1,36 @@
+# Elite Estimating Solutions
+# All search engines and AI search assistants are welcome.
+
+User-agent: *
+Allow: /
+
+# Google and Bing search
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI search and answer engines (these decide if AI tools can cite this site)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+Sitemap: https://eliteestimatingsolutions.com/sitemap.xml
